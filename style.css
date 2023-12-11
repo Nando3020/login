@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/img/rua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+
+
+.container1{
+    height: 250px;
+    width: 550px;
+    top: 50px;
+    left: 33%;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;    
+    position: relative;
+    background-color: transparent; 
+    backdrop-filter: blur(20px);
+      
+}
+
+
+img{
+    height: 120px;
+    width: auto;
+    top: 30px;
+    left: 10%;
+    position: relative;
+}
+
+
+
+img:hover{
+    
+    transform: rotateY(175deg);
+    transition: 2s;
+    
+    
+    
+}
+
+
+
+form{
+    height: 200px;
+    width: 200px;
+    left: 50%;
+    bottom: 90px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    
+ 
+}
+
+
+
+input{
+    height: 20px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    position: relative;
+}
+
+
+
+input:focus{
+    border-color: red !important;
+}
+
+input:valid{
+    border-color: green;
+}
+
+
+button{
+
+    height:50px ;
+    width:100px ;
+    top: 10px;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: transparent;
+    box-shadow: 5px 6px 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+button{
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    background-color: black;
+    color: #f5f5f5;
+}
+
+
+
+
+
